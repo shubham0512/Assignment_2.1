@@ -1,0 +1,19 @@
+Assignment 2.1
+
+1) cd $Hadoop_Home - This command will take us to the /home/cloudera
+2) Hadoop fs -ls - This command will show us the list of directories in HDFS
+2) hadoop fs -find Hadoop - If the directory exists, then it is listed else the alert is shown 'No Such File or Directory'
+3) hdfs fs -mkdir Hadoop
+
+
+1) hadoop fs -touchz hadoop/word-count.txt
+2) echo "Shubham is learning Hadoop" | hadoop fs -appendToFile - hadoop/word-count.txt
+
+
+
+Assignment 2.2
+
+1) vi max-temp.txt
+2) hadoop fs -put max-temp.txt hadoop - we are in the /home/cloudera directory
+3) hadoop fs -ls hadoop - To check whether the file has been copied into the hadoop directory
+4) cat max-temp.txt - To check the contents of the file
